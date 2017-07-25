@@ -1,0 +1,38 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  z-index: 3;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.button {
+  margin-top: 2px;
+  display: inline-block;
+  background-color: #f6c164;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  & > .button {
+    margin: 3px;
+  }
+}

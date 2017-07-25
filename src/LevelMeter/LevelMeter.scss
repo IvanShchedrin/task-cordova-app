@@ -1,0 +1,36 @@
+.level-meter {
+  width: 200px;
+  height: 200px;
+  background-color: #8ddeff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.level-meter__point {
+  width: 20px;
+  height: 20px;
+  background-color: #d66;
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.level-meter__center-x {
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background-color: #3a51ff;
+  top: 99px;
+  left: 0;
+}
+
+.level-meter__center-y {
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  background-color: #3a51ff;
+  left: 99px;
+  top: 0;
+}

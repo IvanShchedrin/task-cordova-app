@@ -1,0 +1,55 @@
+{
+    "name": "com.example.hello",
+    "displayName": "Cordova-shri-task",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "webpack && cordova serve"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-compat": "^1.1.0",
+        "cordova-plugin-device-motion": "^1.2.5",
+        "cordova-plugin-flashlight": "^3.2.0",
+        "cordova-plugin-screen-orientation": "^2.0.1",
+        "cordova-plugin-screensize": "^1.3.1",
+        "cordova-plugin-whitelist": "^1.3.2",
+        "es6-promise-plugin": "git+https://github.com/vstirbu/PromisesPlugin.git",
+        "prop-types": "^15.5.10",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-router": "^3.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-device-motion": {},
+            "cordova-plugin-flashlight": {},
+            "cordova-plugin-screen-orientation": {},
+            "cordova-plugin-screensize": {}
+        },
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "devDependencies": {
+        "autoprefixer-loader": "^3.2.0",
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "css-loader": "^0.28.4",
+        "extract-text-webpack-plugin": "^3.0.0",
+        "node-sass": "^4.5.3",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.18.2",
+        "webpack": "^3.3.0"
+    }
+}
